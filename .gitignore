@@ -1,0 +1,13 @@
+# Data
+/data/raw/
+/data/processed/
+
+# Models and artifacts
+/models/embedding/*.onnx
+/models/anomaly/*.pkl
+
+# Logs
+*.log
+
+# OS
+.DS_Store

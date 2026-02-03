@@ -1,0 +1,9 @@
+sampling:
+  sample_hz: 50
+control:
+  pattern: sine
+  duration_s: 10
+  amplitude: 1.0
+logging:
+  format: csv
+  output_dir: data/raw
