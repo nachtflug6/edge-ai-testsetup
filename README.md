@@ -2,6 +2,9 @@
 
 This repository contains a practical, modular scaffold for prototyping a dual-motor test bench for anomaly detection and edge AI research. It is designed for Raspberry Pi 5 as the main controller, with optional ESP32 and Arduino-based prototypes.
 
+## Problem Statement
+The goal of this repository is to provide the **physical test platform** counterpart to the cluster-based benchmarking of edge log-to-vector under constraints. We need to validate, in a real environment, whether the algorithms and pipelines developed on the cluster actually work on **real sensor signals**. This test bench captures sensor data from controlled motor patterns and loads, runs edge AI to generate embeddings, and stores those vectors (plus metadata) in a lightweight vector-capable database for similarity search and anomaly analysis. The outcome should demonstrate that the end-to-end pipeline is feasible and reliable on real hardware.
+
 ## Goals
 - Provide a controlled environment for manipulating rotation patterns and loads.
 - Collect synchronized sensor and control data.
